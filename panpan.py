@@ -3,8 +3,8 @@ from datetime import datetime
 
 import time, requests, random
 sandi = input('Masukan password : ')
-if sandi == 'firman12':
-	print('Welcome client roki /njangan lupa istirahat?')
+if sandi == 'Panpan00':
+	print('GUNAKAN DENGAN BIJAK?')
 else:
     ws.close()
 xz = 1
@@ -97,7 +97,7 @@ def on_message(ws, message):
         kalem = '{"appversion":"4.3.16","event":"live_message","token":" ","useragent":"Android","message":"waalaikumsalam😇"}'
         bangun = '{"appversion":"4.3.16","event":"live_message","token":" ","useragent":"Android","message":" ' + nick + '  [SERVER]~[MJ COISHT IN ROOM]~ON PROSES "}'
         bangun2 = '{"appversion":"4.3.16","event":"live_message","token":" ","useragent":"Android","message":"Apasih  ' + nick + ' panggil panggil MJ 😏 kek yang mau ngasih duit ajah 😝 "}'
-        johnson = '{"appversion":"4.3.16","event":"live_message","token":"","useragent":"Android","message":"eeeeeeh siapa?🤔  ' + nick + '  Ku Kasih Tau Ya ~Panpan~ Itu Emang Gada Otak " "}'
+        johnson = '{"appversion":"4.3.16","event":"live_message","token":"","useragent":"Android","message":"eeeeeeh siapa?🤔  ' + nick + ' Ku Kasih Tau Ya ~Panpan~ Itu Emang Gada Otak " "}'
         jun =  '{"appversion": "4.3.16", "event": "live_message", "token": "", "useragent": "Android", "message": " woooooooooooy' +  nick  + ' jangan panggil bos gw😒 dia lagi jomblo kasian😖😖  "}'
         ljeen =  '{"appversion": "4.3.16", "event": "live_message", "token": "", "useragent": "Android", "message": "Hai ' +  nick  + ' Siang Juga manusia 💞 kamu udah mandi blm?🙄 bau 🙊"}'
         fans = '{"appversion":"4.3.16","event":"live_message","token":"","useragent":"Android","message":"' + nick + ' pagi juga kaka semoga hari mu menyenangkan yah💞💞😚"}'
