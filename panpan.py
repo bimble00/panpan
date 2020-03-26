@@ -4,7 +4,7 @@ from datetime import datetime
 import time, requests, random
 sandi = input('Masukan password : ')
 if sandi == 'firman12':
-	print('Welcome client roki /njangan lupa istirahat?')
+	print('Gunakan Dengan Bijak?')
 else:
     ws.close()
 xz = 1
@@ -25,9 +25,9 @@ botauthtoken2 = 'f2403d5c8c8a51ad7dba69e1c75f72e75349d5aa' #token lu disini
 rscode=0
 while rscode!=1:
 	#nomor = "06802143801"
-	nomor="085705873584"
+	nomor="088707525618"
 	###nomor = input("masukkan nomor telepon : ")
-	password="kambing1"
+	password="Panpan05"
 	###password = input("masukkan password : ")
 	headers={"User-Agent":"Mozilla/5.0"}
 	response=requests.post('https://id-api.spooncast.net/signin/?version=2',headers=headers,json={"sns_type":"phone","sns_id":nomor,"password":password})
@@ -67,7 +67,7 @@ def on_message(ws, message):
         uid = chat['data']['author']['id']
         nick = chat['data']['author']['nickname']
         evn = chat['event']
-        kesurupan = '{"appversion":"4.3.16","event":"live_message","token":"","useragent":"Android","message":"HAI TUANKU PANPAN, ANDA MEMANGGIL SAYA...."}'
+        kesurupan = '{"appversion":"4.3.16","event":"live_message","token":"","useragent":"Android","message":"Iya Tuan...."}'
         if 1 == 1:
             if z == 0:
                 ws.send(kesurupan)
