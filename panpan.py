@@ -4,7 +4,7 @@ from datetime import datetime
 import time, requests, random
 sandi = input('Masukan password : ')
 if sandi == 'firman12':
-	print('Welcome client roki /njangan lupa istirahat?')
+	print('gunakan dengan bijak')
 else:
     ws.close()
 xz = 1
@@ -67,7 +67,7 @@ def on_message(ws, message):
         uid = chat['data']['author']['id']
         nick = chat['data']['author']['nickname']
         evn = chat['event']
-        kesurupan = '{"appversion":"4.3.16","event":"live_message","token":"","useragent":"Android","message":"HAI TUANKU PANPAN, ANDA MEMANGGIL SAYA...."}'
+        kesurupan = '{"appversion":"4.3.16","event":"live_message","token":"","useragent":"Android","message":"HAI TUANKU PANPAN...."}'
         if 1 == 1:
             if z == 0:
                 ws.send(kesurupan)
