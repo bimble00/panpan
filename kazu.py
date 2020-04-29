@@ -2,8 +2,8 @@ import websocket, json, time, datetime,requests
 from datetime import datetime
 
 import time, requests, random
-sandi = input('Masukan password : ')
-if sandi == 'firman12':
+
+
 	print('gunakan dengan bijak')
 else:
     ws.close()
